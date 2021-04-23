@@ -1,0 +1,101 @@
+.chatRoomContailter {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userList{
+    height: 100%;
+    width: 20vh;
+    /* width: 20%; */
+}
+.chatRightList{
+    height: 100%;
+    width: 80vh;
+    /* width: 100%; */
+}
+.chatContent {
+    height: 90%;
+    padding: 20px 20px 0;
+}
+
+.chatLeft {
+    display: flex;
+    align-items: center;
+}
+
+.chatLeft img {
+    margin-right: 10px;
+    width: 60px;
+}
+
+.chatLeft .leftText {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatLeft .leftText .leftTitle {
+    font-size: 20px;
+    color: #999;
+}
+
+.chatLeft .leftText .leftTx {
+    background: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chatRight {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: #fff;
+}
+
+.chatRight img {
+    margin-left: 10px;
+    width: 60px;
+}
+
+.chatRight .rightText {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatRight .rightText .rightTitle {
+    text-align: right;
+    font-size: 20px;
+    color: #999;
+}
+
+.chatRight .rightText .RightText {
+    font-size: 25px;
+    background: rgb(149, 236, 105);
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chatRoomFooter {
+    height: 10%;
+    background: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.chatRoomFooter .chatSendButton {
+    font-size: 25px;
+    width: 150px;
+    height: 100%;
+}
+
+.chatRoomFooter .chatSendContent {
+    height: 100%;
+    font-size: 25px;
+}

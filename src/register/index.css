@@ -1,0 +1,12 @@
+.registerContailter {
+    height: 100vh;
+    background-image: url('../static/registerBG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.registerForm {
+    width: 350px;
+    padding-top: 18%;
+    margin: auto;
+}
